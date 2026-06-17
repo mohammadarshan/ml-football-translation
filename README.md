@@ -81,13 +81,13 @@ pip install -r requirements.txt
 
 ### 2. Data pipeline
 
-Run `code/MLCLSTData.ipynb` end-to-end. This outputs the six bridge CSVs (`ml_bridge_train/test_{fwd,mid,def}.csv`) to the `results/` folder.
+Run `code/MLCLSTData.ipynb` end-to-end. Download the six output bridge CSVs (`ml_bridge_train/test_{fwd,mid,def}.csv`) from the notebook environment. These are the direct inputs to the modelling notebook and must be uploaded to the notebook environment before running `MLCLST.ipynb`.
 
 ### 3. Modelling
 
-Run `code/MLCLST.ipynb` end-to-end. All results CSVs and publication figures are saved to `results/`.
+Run `code/MLCLST.ipynb` end-to-end. The notebook produces all results CSVs and publication figures in-session.
 
-> **Note:** The data pipeline must be run before the modelling notebook. All random seeds are fixed (`RANDOM_STATE = 42`).
+> **Note:** The data pipeline must be run and its bridge CSVs downloaded before running the modelling notebook. All random seeds are fixed (`RANDOM_STATE = 42`).
 
 ---
 
