@@ -2,7 +2,7 @@
 
 **A Machine Learning Framework for Cross-League Per-90 Statistic Translation in Elite Football: A Comparative Model Zoo with Conformal Prediction**
 
-*Under review — Journal of Quantitative Analysis in Sports (JQAS)*
+*Under review — Statistical Analysis & Data Mining*
 
 ---
 
